@@ -1,0 +1,253 @@
+/* General Styles */
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(135deg, #0073e6, #00a8ff); /* Blue gradient */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 150px; /* Adjust the size of your logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0073e6; /* Blue header */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0073e6, #00a8ff); /* Blue gradient */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #005bb5; /* Darker blue button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #004080; /* Even darker blue on hover */
+}
+
+.destinations, .packages, .contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white; /* White background for sections */
+}
+
+.destinations h2, .packages h2, .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0073e6; /* Blue headings */
+}
+
+.destination-grid, .package-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination, .package {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    border: 1px solid #e0e0e0; /* Light border */
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package ul {
+    list-style: none;
+    padding: 0;
+}
+
+.package ul li {
+    margin: 10px 0;
+    color: #333; /* Dark text */
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    align-self: center;
+}
+
+footer {
+    background-color: #0073e6; /* Blue footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Advertisement Section */
+.advertisements {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background */
+}
+
+.advertisements h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0073e6; /* Blue heading */
+}
+
+.ad-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between ads */
+}
+
+.ad {
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ad img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.ad:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.ad-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 115, 230, 0.8); /* Semi-transparent blue overlay */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.ad:hover .ad-overlay {
+    transform: translateY(0); /* Slide up on hover */
+}
+
+.ad-overlay h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ad-overlay p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ad-overlay .btn {
+    background-color: #005bb5; /* Darker blue button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ad-overlay .btn:hover {
+    background-color: #004080; /* Even darker blue on hover */
+}
